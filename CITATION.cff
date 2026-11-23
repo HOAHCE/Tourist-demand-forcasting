@@ -3,10 +3,16 @@ message: "If you use this code or data, please cite the paper below."
 title: "Global GRU-Based Multi-Horizon Visitor Forecasting for Digital Heritage Management in Hue, Vietnam"
 authors:
   - family-names: "Tran"
+    given-names: "Ngoc Phuong Thao"
+  - family-names: "Cao"
+    given-names: "Huu Phung"
+  - family-names: "Vo"
+    given-names: "Quang Huy"
+  - family-names: "Tran"
     given-names: "Thai Hoa"
 date-released: 2026-08-30
 license: MIT
-repository-code: "https://github.com/HOAHCE/hue-heritage-visitor-forecasting"
+repository-code: "https://github.com/HOAHCE/Tourist-demand-forcasting"
 keywords:
   - tourism-demand forecasting
   - heritage visitors
@@ -17,6 +23,12 @@ preferred-citation:
   type: conference-paper
   title: "Global GRU-Based Multi-Horizon Visitor Forecasting for Digital Heritage Management in Hue, Vietnam"
   authors:
+    - family-names: "Tran"
+      given-names: "Ngoc Phuong Thao"
+    - family-names: "Cao"
+      given-names: "Huu Phung"
+    - family-names: "Vo"
+      given-names: "Quang Huy"
     - family-names: "Tran"
       given-names: "Thai Hoa"
   collection-title: "Proceedings of the International Conference on Digital Economy and Fintech Innovation (DEFI 2026)"

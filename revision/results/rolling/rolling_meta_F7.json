@@ -1,0 +1,8 @@
+{
+ "fold": "F7",
+ "ridge_alpha": 31.622776601683793,
+ "LSTM_best_epoch": 28,
+ "GRU_best_epoch": 21,
+ "1D-CNN_best_epoch": 40,
+ "Transformer_best_epoch": 44
+}

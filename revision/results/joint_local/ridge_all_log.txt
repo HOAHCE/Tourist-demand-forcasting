@@ -1,0 +1,7 @@
+== ridge_all | TF 2.21.0 | seeds [2026, 2027, 2028]
+origins: {'train': 841, 'validation': 195, 'test': 197}
+{"Joint-Ridge": 3162.2776601683795, "Local-Ridge Đại Nội": 1000.0, "Local-Ridge Lăng Khải Định": 1000.0, "Local-Ridge Lăng Minh Mạng": 316.2277660168379, "Local-Ridge Lăng Tự Đức": 1000.0, "Pooled-Ridge": 3162.2776601683795}
+Joint-Ridge: aggregate test RMSE H1=664.8, H7=950.6, H14=993.2
+Local-Ridge: aggregate test RMSE H1=624.5, H7=877.6, H14=909.5
+Pooled-Ridge: aggregate test RMSE H1=627.1, H7=869.6, H14=897.8
+done

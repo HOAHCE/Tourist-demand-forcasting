@@ -1,0 +1,73 @@
+destination,horizon,model,benchmark,DM_statistic,p_value,interpretation,p_holm
+Đại Nội,1,ARX-Ridge,SeasonalNaive7,-3.6631401068459057,0.0002491421747108369,negative statistic favors model,0.017190810055047745
+Đại Nội,1,LSTM,SeasonalNaive7,-3.5617157845649747,0.0003684391126059783,negative statistic favors model,0.024685420544600545
+Đại Nội,1,GRU,SeasonalNaive7,-3.860379348745239,0.00011321112996709459,negative statistic favors model,0.008037990227663716
+Đại Nội,1,1D-CNN,SeasonalNaive7,-0.5358827460220518,0.5920395897632802,negative statistic favors model,1.0
+Đại Nội,1,Transformer,SeasonalNaive7,-2.3676705802250644,0.01790046614626961,negative statistic favors model,0.9308242396060198
+Đại Nội,1,Ensemble,SeasonalNaive7,-3.976766058709541,6.985882969634538e-05,negative statistic favors model,0.0050298357381368675
+Đại Nội,7,ARX-Ridge,SeasonalNaive7,-1.373495941762009,0.16959822197650176,negative statistic favors model,1.0
+Đại Nội,7,LSTM,SeasonalNaive7,-2.118444984974455,0.03413739949642158,negative statistic favors model,1.0
+Đại Nội,7,GRU,SeasonalNaive7,-2.1510058435142114,0.0314757384572264,negative statistic favors model,1.0
+Đại Nội,7,1D-CNN,SeasonalNaive7,-0.0231111589624916,0.9815616044995645,negative statistic favors model,1.0
+Đại Nội,7,Transformer,SeasonalNaive7,-0.683731291755236,0.49414486012119907,negative statistic favors model,1.0
+Đại Nội,7,Ensemble,SeasonalNaive7,-2.186671703020799,0.028766498759799752,negative statistic favors model,1.0
+Đại Nội,14,ARX-Ridge,SeasonalNaive7,-1.4887884336289372,0.13654308902807322,negative statistic favors model,1.0
+Đại Nội,14,LSTM,SeasonalNaive7,-2.455757797867854,0.014058787465069722,negative statistic favors model,0.7451157356486953
+Đại Nội,14,GRU,SeasonalNaive7,-2.799957087417205,0.00511094004661361,negative statistic favors model,0.301545462750203
+Đại Nội,14,1D-CNN,SeasonalNaive7,-2.2280699653075184,0.025875849766335612,negative statistic favors model,1.0
+Đại Nội,14,Transformer,SeasonalNaive7,-1.4520228782730726,0.14649524397266367,negative statistic favors model,1.0
+Đại Nội,14,Ensemble,SeasonalNaive7,-2.729549788342809,0.006342087155281728,negative statistic favors model,0.3614989678510585
+Lăng Khải Định,1,ARX-Ridge,SeasonalNaive7,-3.040727330187798,0.0023600745416665347,negative statistic favors model,0.15104477066665822
+Lăng Khải Định,1,LSTM,SeasonalNaive7,-3.15936842954858,0.0015811147268445236,negative statistic favors model,0.10277245724489403
+Lăng Khải Định,1,GRU,SeasonalNaive7,-3.775810632553016,0.00015948812729171813,negative statistic favors model,0.011164168910420269
+Lăng Khải Định,1,1D-CNN,SeasonalNaive7,-1.8111705345679128,0.07011445779986691,negative statistic favors model,1.0
+Lăng Khải Định,1,Transformer,SeasonalNaive7,-2.7093522646484267,0.00674147208675957,negative statistic favors model,0.3775224368585359
+Lăng Khải Định,1,Ensemble,SeasonalNaive7,-3.5927229046232574,0.00032724051717858416,negative statistic favors model,0.022252355168143723
+Lăng Khải Định,7,ARX-Ridge,SeasonalNaive7,-0.5739933727464686,0.5659722859353278,negative statistic favors model,1.0
+Lăng Khải Định,7,LSTM,SeasonalNaive7,-1.6253795834962677,0.10408170343507916,negative statistic favors model,1.0
+Lăng Khải Định,7,GRU,SeasonalNaive7,-2.0934786421583973,0.0363064486800635,negative statistic favors model,1.0
+Lăng Khải Định,7,1D-CNN,SeasonalNaive7,-1.5007924744153436,0.13340924575767432,negative statistic favors model,1.0
+Lăng Khải Định,7,Transformer,SeasonalNaive7,-1.4164095431571975,0.15665563144851924,negative statistic favors model,1.0
+Lăng Khải Định,7,Ensemble,SeasonalNaive7,-1.6398747270870373,0.10103121664246428,negative statistic favors model,1.0
+Lăng Khải Định,14,ARX-Ridge,SeasonalNaive7,-0.5458667185964585,0.5851575572227659,negative statistic favors model,1.0
+Lăng Khải Định,14,LSTM,SeasonalNaive7,-1.5568884247456853,0.11949697814063409,negative statistic favors model,1.0
+Lăng Khải Định,14,GRU,SeasonalNaive7,-2.1388904512988542,0.032444541563889207,negative statistic favors model,1.0
+Lăng Khải Định,14,1D-CNN,SeasonalNaive7,-2.0758725754983995,0.03790573775488504,negative statistic favors model,1.0
+Lăng Khải Định,14,Transformer,SeasonalNaive7,-1.65696018509976,0.09752752498279782,negative statistic favors model,1.0
+Lăng Khải Định,14,Ensemble,SeasonalNaive7,-1.9257903226817459,0.05413056030134422,negative statistic favors model,1.0
+Lăng Minh Mạng,1,ARX-Ridge,SeasonalNaive7,-2.8370949445502216,0.004552607174003631,negative statistic favors model,0.280774435091796
+Lăng Minh Mạng,1,LSTM,SeasonalNaive7,-2.8387811893508395,0.004528619920835419,negative statistic favors model,0.280774435091796
+Lăng Minh Mạng,1,GRU,SeasonalNaive7,-3.332528092173226,0.0008606078156130348,negative statistic favors model,0.056800115830460296
+Lăng Minh Mạng,1,1D-CNN,SeasonalNaive7,-1.4527946592316274,0.1462807752663442,negative statistic favors model,1.0
+Lăng Minh Mạng,1,Transformer,SeasonalNaive7,-2.335835592489939,0.019499811818954882,negative statistic favors model,0.994490402766699
+Lăng Minh Mạng,1,Ensemble,SeasonalNaive7,-3.0232602588040582,0.0025006707995411936,negative statistic favors model,0.1575422603710952
+Lăng Minh Mạng,7,ARX-Ridge,SeasonalNaive7,-0.9769301165009024,0.3286037507811619,negative statistic favors model,1.0
+Lăng Minh Mạng,7,LSTM,SeasonalNaive7,-1.4423892265493707,0.1491926013837328,negative statistic favors model,1.0
+Lăng Minh Mạng,7,GRU,SeasonalNaive7,-1.950302087373939,0.05114012403014967,negative statistic favors model,1.0
+Lăng Minh Mạng,7,1D-CNN,SeasonalNaive7,-1.4811388312841163,0.13856958211591852,negative statistic favors model,1.0
+Lăng Minh Mạng,7,Transformer,SeasonalNaive7,-1.5018933729878357,0.133124648391022,negative statistic favors model,1.0
+Lăng Minh Mạng,7,Ensemble,SeasonalNaive7,-1.7778012474725098,0.07543650354775888,negative statistic favors model,1.0
+Lăng Minh Mạng,14,ARX-Ridge,SeasonalNaive7,-0.8522097639667212,0.3940976783560326,negative statistic favors model,1.0
+Lăng Minh Mạng,14,LSTM,SeasonalNaive7,-1.249815630590226,0.21136690490284082,negative statistic favors model,1.0
+Lăng Minh Mạng,14,GRU,SeasonalNaive7,-1.8600151269423273,0.06288338581990915,negative statistic favors model,1.0
+Lăng Minh Mạng,14,1D-CNN,SeasonalNaive7,-1.8545248234943397,0.06366411212688572,negative statistic favors model,1.0
+Lăng Minh Mạng,14,Transformer,SeasonalNaive7,-1.4730153808849613,0.1407468884755716,negative statistic favors model,1.0
+Lăng Minh Mạng,14,Ensemble,SeasonalNaive7,-1.8211201765150542,0.06858859088584324,negative statistic favors model,1.0
+Lăng Tự Đức,1,ARX-Ridge,SeasonalNaive7,-2.7685506906646684,0.0056306225873845595,negative statistic favors model,0.32657611006830445
+Lăng Tự Đức,1,LSTM,SeasonalNaive7,-2.505889779709303,0.01221436886160232,negative statistic favors model,0.6595759185265253
+Lăng Tự Đức,1,GRU,SeasonalNaive7,-2.558470958445837,0.010513360119933202,negative statistic favors model,0.5782348065963261
+Lăng Tự Đức,1,1D-CNN,SeasonalNaive7,1.0336232658052127,0.3013123184091202,negative statistic favors model,1.0
+Lăng Tự Đức,1,Transformer,SeasonalNaive7,-1.629309693855575,0.10324747505046927,negative statistic favors model,1.0
+Lăng Tự Đức,1,Ensemble,SeasonalNaive7,-2.820951401520206,0.0047881456013763035,negative statistic favors model,0.2872887360825782
+Lăng Tự Đức,7,ARX-Ridge,SeasonalNaive7,-1.3411972874129827,0.17985640686155335,negative statistic favors model,1.0
+Lăng Tự Đức,7,LSTM,SeasonalNaive7,-1.286887910564223,0.19813335964164125,negative statistic favors model,1.0
+Lăng Tự Đức,7,GRU,SeasonalNaive7,-1.1652961872851442,0.2438991219080191,negative statistic favors model,1.0
+Lăng Tự Đức,7,1D-CNN,SeasonalNaive7,1.5732201618500932,0.11566784837994715,negative statistic favors model,1.0
+Lăng Tự Đức,7,Transformer,SeasonalNaive7,0.31818807168761876,0.7503422803661342,negative statistic favors model,1.0
+Lăng Tự Đức,7,Ensemble,SeasonalNaive7,-1.424137111363274,0.15440678535453167,negative statistic favors model,1.0
+Lăng Tự Đức,14,ARX-Ridge,SeasonalNaive7,-1.5050671160472147,0.13230682230954605,negative statistic favors model,1.0
+Lăng Tự Đức,14,LSTM,SeasonalNaive7,-1.3685486128827709,0.1711404163385506,negative statistic favors model,1.0
+Lăng Tự Đức,14,GRU,SeasonalNaive7,-1.5410591752474827,0.12330238457852105,negative statistic favors model,1.0
+Lăng Tự Đức,14,1D-CNN,SeasonalNaive7,0.25941769443277396,0.7953129787210735,negative statistic favors model,1.0
+Lăng Tự Đức,14,Transformer,SeasonalNaive7,-0.03222164923139998,0.9742952915515608,negative statistic favors model,1.0
+Lăng Tự Đức,14,Ensemble,SeasonalNaive7,-1.2045947921188882,0.22835976817098302,negative statistic favors model,1.0

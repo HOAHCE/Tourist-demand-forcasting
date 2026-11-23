@@ -11,3 +11,6 @@ holidays==0.103
 gdown==5.2.2
 openpyxl==3.1.5
 matplotlib
+# Revision analyses (revision/code)
+arch>=7.0
+joblib

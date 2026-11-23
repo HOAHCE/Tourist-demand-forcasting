@@ -1,8 +1,8 @@
 # Global GRU-Based Multi-Horizon Visitor Forecasting for Digital Heritage Management in Hue, Vietnam
 
-Reproducibility repository for the DEFI 2026 paper of the same title. It contains the daily visitor data for four major heritage sites in Hue, the Colab/Jupyter notebook that runs the full experiment, and the complete set of result tables, figures, trained models, and run logs.
+Reproducibility repository for the DEFI 2026 paper of the same title (Tran Ngoc Phuong Thao, Cao Huu Phung, Vo Quang Huy, Hoa Tran Thai). It contains the daily visitor data for four major heritage sites in Hue, the Colab/Jupyter notebook that runs the full experiment, and the complete set of result tables, figures, trained models, and run logs.
 
-This study formulates daily visitor forecasting for the Imperial City (Đại Nội) and the Khai Dinh, Minh Mang, and Tu Duc royal tombs as a **global, multivariate, direct** problem at **1-, 7-, and 14-day** horizons. Seven approaches are compared under a chronological, leakage-controlled protocol: Seasonal Naive-7, ARX-Ridge, LSTM, GRU, 1D-CNN, Transformer, and a validation-weighted ensemble. On the independent test set, **GRU gives the lowest RMSE at every horizon** and in 11 of 12 site–horizon combinations, cutting aggregate RMSE by 46% versus the seasonal benchmark.
+This study formulates daily visitor forecasting for the Imperial City (Đại Nội) and the Khai Dinh, Minh Mang, and Tu Duc royal tombs as a **global, multivariate, direct** problem at **1-, 7-, and 14-day** horizons. Seven approaches are compared under a chronological, leakage-controlled protocol: Seasonal Naive-7, ARX-Ridge, LSTM, GRU, 1D-CNN, Transformer, and a validation-weighted ensemble. On the independent test set, **GRU gives the lowest RMSE at every horizon** and in 11 of 12 site–horizon combinations, cutting aggregate RMSE by 46% versus the seasonal benchmark. The camera-ready revision adds pairwise significance tests, generalization diagnostics, a rolling-origin evaluation, and a joint-versus-local comparison (see [Revision for the camera-ready version](#revision-for-the-camera-ready-version)).
 
 ## Headline results (independent test set, aggregated over the four sites)
 
@@ -24,13 +24,17 @@ Relative to Seasonal Naive-7, GRU reduces RMSE by 57.57%, 39.50%, and 42.36% at 
 .
 ├── data/                 Cleaned daily visitor series (model inputs)
 ├── code/                 The experiment notebook
-├── results/              All outputs used in the paper
+├── results/              All outputs used in the submitted paper
 │   ├── tables/           Metrics, predictions, DM tests, ensemble weights
 │   ├── figures/          EDA and result figures (PNG)
 │   ├── models/           Trained model checkpoints (per seed)
 │   ├── optuna/           Hyperparameter-search trial logs
 │   ├── logs/             Run manifest, environment, training histories
 │   └── Hue_4_Destinations_Forecasting_Results.xlsx
+├── revision/             Camera-ready revision (November 2026): code and outputs of the new analyses
+│   ├── code/             Python scripts (see revision/README.md)
+│   └── results/          Pairwise tests, generalization, site diagnostics, rolling origin, joint vs local
+├── hue-heritage-visitor-forecasting.zip   Archive of data/, code/, results/ as first released
 ├── requirements.txt
 ├── CITATION.cff
 ├── LICENSE
@@ -74,11 +78,15 @@ The experiment was developed in Google Colab with a GPU runtime.
 
 Because deep-model training is stochastic, exact figures can differ slightly across hardware and library builds; the versions used for the paper are pinned in `results/logs/environment_versions.json`. The pre-computed artifacts in `results/` let you inspect and re-plot the paper's numbers without retraining.
 
+## Revision for the camera-ready version
+
+The reviewers of the DEFI 2026 submission asked for (1) direct comparisons of GRU with the strongest alternatives, (2) evidence on generalization by fitting stage, (3) a rolling-origin evaluation, (4) a comparison with site-specific models, and (5) an explanation of the low R² at Tu Duc Tomb. All code and outputs for these analyses are in [`revision/`](revision/README.md), which maps every reviewer comment to a script and a result file.
+
 ## Citation
 
 If you use this repository, please cite the paper (see `CITATION.cff`):
 
-> Tran Thai Hoa, "Global GRU-Based Multi-Horizon Visitor Forecasting for Digital Heritage Management in Hue, Vietnam," in *Proc. Int. Conf. on Digital Economy and Fintech Innovation (DEFI 2026)*, 2026.
+> Tran Ngoc Phuong Thao, Cao Huu Phung, Vo Quang Huy, and Hoa Tran Thai, "Global GRU-Based Multi-Horizon Visitor Forecasting for Digital Heritage Management in Hue, Vietnam," in *Proc. Int. Conf. on Digital Economy and Fintech Innovation (DEFI 2026)*, 2026.
 
 ## License
 
