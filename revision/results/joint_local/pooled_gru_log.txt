@@ -1,0 +1,8 @@
+== pooled_gru | TF 2.21.0 | seeds [2026, 2027, 2028]
+origins: {'train': 841, 'validation': 195, 'test': 197}
+  stage1 epochs=24 best=6 (191s)
+  seed 2026 (34s)
+  seed 2027 (42s)
+  seed 2028 (39s)
+Pooled-GRU: aggregate test RMSE H1=543.1, H7=761.5, H14=793.6
+done

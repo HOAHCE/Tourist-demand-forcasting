@@ -1,0 +1,5 @@
+﻿model,best_validation_RMSE,best_trial,best_epoch_tuning
+LSTM,559.8647522648994,12,23
+GRU,489.55262375662636,10,19
+1D-CNN,646.3797340233789,3,59
+Transformer,588.498223129455,3,16

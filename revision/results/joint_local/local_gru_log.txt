@@ -1,0 +1,24 @@
+== local_gru | TF 2.21.0 | seeds [2026, 2027, 2028]
+origins: {'train': 841, 'validation': 195, 'test': 197}
+site Đại Nội
+  stage1 epochs=29 best=11 (68s)
+  seed 2026 (29s)
+  seed 2027 (28s)
+  seed 2028 (29s)
+site Lăng Khải Định
+  stage1 epochs=27 best=9 (62s)
+  seed 2026 (24s)
+  seed 2027 (23s)
+  seed 2028 (24s)
+site Lăng Minh Mạng
+  stage1 epochs=26 best=8 (58s)
+  seed 2026 (25s)
+  seed 2027 (23s)
+  seed 2028 (22s)
+site Lăng Tự Đức
+  stage1 epochs=29 best=11 (66s)
+  seed 2026 (29s)
+  seed 2027 (28s)
+  seed 2028 (35s)
+Local-GRU: aggregate test RMSE H1=724.4, H7=941.0, H14=971.9
+done

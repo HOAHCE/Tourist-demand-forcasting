@@ -1,0 +1,50 @@
+{
+  "ARX-Ridge": {
+    "lookback": 28,
+    "alpha": 3162.2776601683795,
+    "validation_RMSE": 586.3448138576778
+  },
+  "LSTM": {
+    "lookback": 84,
+    "dense_units": 64,
+    "dropout": 0.3377266601306773,
+    "learning_rate": 0.00047969666213237426,
+    "batch_size": 16,
+    "units": 64,
+    "n_layers": 1,
+    "best_epoch_tuning": 23
+  },
+  "GRU": {
+    "lookback": 112,
+    "dense_units": 96,
+    "dropout": 0.2642995828650003,
+    "learning_rate": 0.0011882822203134762,
+    "batch_size": 16,
+    "units": 32,
+    "n_layers": 1,
+    "best_epoch_tuning": 19
+  },
+  "1D-CNN": {
+    "lookback": 84,
+    "dense_units": 96,
+    "dropout": 0.12834714045503087,
+    "learning_rate": 0.00280987361408003,
+    "batch_size": 16,
+    "filters": 32,
+    "kernel_size": 5,
+    "n_blocks": 3,
+    "best_epoch_tuning": 59
+  },
+  "Transformer": {
+    "lookback": 28,
+    "dense_units": 32,
+    "dropout": 0.29435810875639434,
+    "learning_rate": 0.0019493355483246903,
+    "batch_size": 16,
+    "d_model": 32,
+    "num_heads": 4,
+    "n_layers": 1,
+    "ff_dim": 64,
+    "best_epoch_tuning": 16
+  }
+}

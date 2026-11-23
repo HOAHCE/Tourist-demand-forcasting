@@ -1,0 +1,8 @@
+== joint_gru | TF 2.21.0 | seeds [2026, 2027, 2028]
+origins: {'train': 841, 'validation': 195, 'test': 197}
+  stage1 epochs=35 best=17 (79s)
+  seed 2026 (41s)
+  seed 2027 (42s)
+  seed 2028 (42s)
+Joint-GRU: aggregate test RMSE H1=564.9, H7=723.7, H14=728.1
+done

@@ -1,0 +1,105 @@
+== F7: test 2026-06-01..2026-08-24 (72 origins), inner validation from 2026-03-02 (78 origins), fit rows < 2026-03-02
+    LSTM: stage 1 46 epochs, best 28 (52s)
+    GRU: stage 1 39 epochs, best 21 (67s)
+    1D-CNN: stage 1 58 epochs, best 40 (39s)
+    Transformer: stage 1 62 epochs, best 44 (31s)
+horizon            1      7      14
+model                              
+1D-CNN          884.3  870.4  857.7
+ARX-Ridge       596.8  876.0  946.0
+Ensemble        425.1  513.1  480.2
+GRU             413.5  433.0  474.6
+LSTM            419.5  476.0  510.5
+SeasonalNaive7  563.8  519.3  671.8
+Transformer     527.1  516.1  496.5
+== F7 done in 550s
+== F6: test 2026-03-01..2026-05-31 (92 origins), inner validation from 2025-11-30 (78 origins), fit rows < 2025-11-30
+    LSTM: stage 1 38 epochs, best 20 (45s)
+    GRU: stage 1 65 epochs, best 47 (103s)
+    1D-CNN: stage 1 23 epochs, best 5 (20s)
+    Transformer: stage 1 24 epochs, best 6 (13s)
+horizon             1       7       14
+model                                 
+1D-CNN           913.0   946.9   998.2
+ARX-Ridge        698.6   926.4   921.6
+Ensemble         650.3   679.3   672.8
+GRU              563.4   618.1   586.1
+LSTM             702.1   909.6   857.0
+SeasonalNaive7  1321.2  1327.9  1409.2
+Transformer     1033.8  1226.7   981.8
+== F6 done in 542s
+== F5: test 2025-12-01..2026-02-28 (90 origins), inner validation from 2025-09-01 (78 origins), fit rows < 2025-09-01
+    LSTM: stage 1 44 epochs, best 26 (49s)
+    GRU: stage 1 24 epochs, best 6 (39s)
+    1D-CNN: stage 1 45 epochs, best 27 (26s)
+    Transformer: stage 1 28 epochs, best 10 (16s)
+horizon             1       7       14
+model                                 
+1D-CNN           843.4   891.5   878.3
+ARX-Ridge        597.5   874.5   882.9
+Ensemble         543.2   837.3   843.4
+GRU              702.7   870.8   935.0
+LSTM             562.7   738.4   748.9
+SeasonalNaive7  1070.3  1083.9  1145.6
+Transformer      781.5   883.6   867.0
+== F5 done in 342s
+== F4: test 2025-09-01..2025-11-30 (91 origins), inner validation from 2025-06-02 (78 origins), fit rows < 2025-06-02
+    LSTM: stage 1 45 epochs, best 27 (46s)
+    GRU: stage 1 38 epochs, best 20 (50s)
+    1D-CNN: stage 1 41 epochs, best 23 (24s)
+    Transformer: stage 1 34 epochs, best 16 (17s)
+horizon            1      7       14
+model                               
+1D-CNN          720.7  627.7   550.7
+ARX-Ridge       528.1  695.5   905.1
+Ensemble        504.7  719.7   820.2
+GRU             562.1  592.1   659.3
+LSTM            704.9  869.7  1011.3
+SeasonalNaive7  660.1  618.1   767.1
+Transformer     644.0  654.4   668.0
+== F4 done in 395s
+== F3: test 2025-06-01..2025-08-31 (92 origins), inner validation from 2025-03-02 (78 origins), fit rows < 2025-03-02
+    LSTM: stage 1 102 epochs, best 84 (98s)
+    GRU: stage 1 56 epochs, best 38 (64s)
+    1D-CNN: stage 1 63 epochs, best 45 (33s)
+    Transformer: stage 1 78 epochs, best 60 (31s)
+horizon            1       7       14
+model                                
+1D-CNN          991.9  1001.0  1022.0
+ARX-Ridge       536.0   681.0   626.8
+Ensemble        721.8   761.7   771.2
+GRU             722.0   834.8   796.6
+LSTM            522.5   577.2   555.1
+SeasonalNaive7  745.1   738.6   907.1
+Transformer     780.1   803.1   756.7
+== F3 done in 740s
+== F2: test 2025-03-01..2025-05-31 (92 origins), inner validation from 2024-11-30 (78 origins), fit rows < 2024-11-30
+    LSTM: stage 1 55 epochs, best 37 (43s)
+    GRU: stage 1 48 epochs, best 30 (49s)
+    1D-CNN: stage 1 20 epochs, best 2 (11s)
+    Transformer: stage 1 30 epochs, best 12 (11s)
+horizon             1       7       14
+model                                 
+1D-CNN          1637.4  1295.3  1426.8
+ARX-Ridge        790.0   999.0  1004.5
+Ensemble         849.7   988.7  1020.0
+GRU              583.3   875.0   940.5
+LSTM             757.2   884.9   943.5
+SeasonalNaive7  1364.7  1385.7  1396.7
+Transformer      965.8   939.0  1013.7
+== F2 done in 316s
+== F1: test 2024-12-01..2025-02-28 (90 origins), inner validation from 2024-09-01 (78 origins), fit rows < 2024-09-01
+    LSTM: stage 1 38 epochs, best 20 (25s)
+    GRU: stage 1 38 epochs, best 20 (38s)
+    1D-CNN: stage 1 21 epochs, best 3 (10s)
+    Transformer: stage 1 36 epochs, best 18 (12s)
+horizon            1      7      14
+model                              
+1D-CNN          688.5  868.8  761.0
+ARX-Ridge       536.8  621.5  650.0
+Ensemble        545.1  651.9  678.1
+GRU             627.9  755.2  771.4
+LSTM            575.2  634.7  674.2
+SeasonalNaive7  856.9  860.6  906.1
+Transformer     564.9  676.0  689.7
+== F1 done in 257s
